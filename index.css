@@ -1,0 +1,255 @@
+
+/* Style for body */
+body{
+    margin:0%;
+    padding: 0%;
+
+}
+
+/* Header style start from here */
+
+ /* Style of header section */
+header{
+   align-items: center;
+    background-color:rgb(130, 6, 246);
+    display: flex;
+
+    
+    width: 100vw;
+   
+    height: 40px;
+    border-radius: 5px;
+}
+
+/* style for website name div within heaeder section */
+#websiteName{
+    margin-left: 5% ;
+    width: 20%;
+    color: ghostwhite;
+}
+
+/* Style for search div within header */
+#search{
+    margin-left: 2%;
+    width: 40%;
+    display: flex;
+   
+}
+
+/* Style for search field within search div */
+input{
+   
+    width: 80%;
+    height: 35px;
+    border-width: 0;
+    border-radius: 10px 0px 0px 10px;
+    outline: none;
+    color: rgb(248, 255, 251);
+    background-color:rgb(5, 24, 54);
+   
+}
+input::placeholder{
+    color: ghostwhite;
+}
+
+/* Style for search button within search div */
+#searchButton{
+   height: 35px;
+    width: 20%;
+    outline: none;
+
+    border-width: 0;
+    border-radius: 0px 10px 10px 0px;
+   background-color:rgb(7, 22, 81);
+   color: aliceblue;
+    
+   
+}
+
+/* Main section Style start from here */
+
+/* 
+Style for main section */
+main{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content:start;
+    align-content: flex-start;
+    overflow: auto;
+}
+
+/* Main section divided into two part 1.search Result div 2.Favorite movie list div */
+
+/* Style for search Result div */
+#searchResult{
+    height: 100%;
+    width: 70%;
+    background-color: rgb(3, 3, 42);
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:start;
+    align-content: flex-start;
+    box-sizing: border-box;
+   
+   
+}
+
+
+/* style for search result card */
+.searchResultCard{
+    border-radius: 5px;
+    height: 250px;
+    width: 15%;
+    background-color: antiquewhite;
+    margin: 5px;
+    box-sizing: border-box;
+   
+
+}
+    
+/* style for heart symbol */
+.heart{
+    color: white;
+}
+
+/* style when hover on heart symbol */
+.heart:hover{
+    color: rgb(243, 18, 175);
+}
+
+/* Style for image part of suggetion item */
+.imagePart{
+    height: 70%;
+    width: 100%;
+    /* background-color: brown; */
+    border-radius: 5px 5px 0px 0px;
+}
+
+/* style of image */
+img{
+    border-radius: 5px 5px 0px 0px;
+    height: 100%;
+    width: 100%;
+}
+
+/* Design for name part */
+.namePart{
+    height: 20%;
+    background-color: rgb(1, 13, 23);
+    
+    width: 100%;
+    overflow: hidden;
+    
+
+}
+
+/* Design for title of movie */
+.titleOfMovie{
+    margin-left: 3px;
+    color: white;
+}
+
+
+.ratingPart{
+    height: 12%;
+    width: 100%;
+    background-color: rgb(1, 13, 23);
+    
+    border-radius: 0px 0px 5px 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ratingDiv{
+    margin-left: 3px;
+    color: white;
+}
+
+/* favorite div design */
+.favoriteDiv{
+    margin-right: 3px;
+}
+
+
+/* Design for favorite movie section */
+#favoriteSection{
+    height: 100%;
+    width: 30%;
+    overflow:auto;
+    background-color: rgb(11, 12, 5);
+    display: inline-block;
+    overflow:scroll;
+  
+    
+}
+
+/* Style for heading of favorite section */
+#favoriteListheading{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(21, 24, 26);
+    color: rgb(242, 245, 249);
+}
+
+/* Design for favorite movie list item */
+.favoriteMovie{
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 1px;
+    background-color: rgb(2, 58, 58);
+    width: 95%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    
+
+}
+
+/* style for image part of favorite movie list item */
+.favoriteMovieImage{
+    width: 12%;
+    height: 100%;
+    display: inline-block;
+    margin-left: 0.5px;
+
+    
+}
+
+/* Style for favorite movie name list item */
+.favoriteMovieName{
+    width: 70%;
+    display: inline-block;
+    color: rgb(254, 246, 246);
+    
+}
+
+/* Style for delete button */
+.favoriteMovieDeleteButton{
+    width: 10%;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+   background-color: rgb(1, 1, 10);
+    
+}
+
+
+/* Style for delete button */
+.deleteButton{
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+}
+
+/* This is style when we hover delete button */
+.deleteButton:hover{
+   
+    background-color: red;
+}
+
+
+
+
